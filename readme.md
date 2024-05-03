@@ -1,10 +1,10 @@
-# Exercice 1
+# Exercice A Rendre 1
 
 ## Premier test reussi:
 
 ![alt text](image.png)
 
-code du script dans test_ex1_success.py
+code du script dans exercice1/test_ex1_success.py
 
 ## Second Test échoué:
 
@@ -12,7 +12,7 @@ code du script dans test_ex1_success.py
 
 ![alt text](image-2.png)
 
-code du script dans test_ex2_failure.py
+code du script dans exercice1/test_ex2_failure.py
 
 ## Analyse
 
@@ -27,4 +27,11 @@ Au lieu de hardcoder les input/outputs de ce test, nous pouvons faire un assert_
 assert self.driver.find_element(By.ID, "message").text == "Bonjour, " + self.driver.find_element(By.ID, "username").get_attribute("value") + " !"
 ```
 
-code dans test_ex1_final.py
+code dans exercice1/test_ex1_final.py
+
+
+# Exercice A Rendre 2
+
+![alt text](image-3.png)
+
+Scripts cas avancés et calculs simple dans le folder exercice 2. 
