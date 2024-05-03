@@ -23,6 +23,8 @@ met dans l'input field est: "mahdi" .
 
 Au lieu de hardcoder les input/outputs de ce test, nous pouvons faire un assert_text avec le contenu de l'input field:
 
+```python
 assert self.driver.find_element(By.ID, "message").text == "Bonjour, " + self.driver.find_element(By.ID, "username").get_attribute("value") + " !"
+```
 
 code dans test_ex1_final.py
