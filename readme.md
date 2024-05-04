@@ -40,13 +40,13 @@ Scripts cas avancés et calculs simple dans le folder exercice 2.
 ## 1. Tests réussis
 
 ### Ajout au panier
-![Capture d'écran](exercice3\Screenshots\Ajout_panier.png)
+![Capture d'écran](exercice3/Screenshots/Ajout_panier.png)
 
 ### Catégories
-![Capture d'écran](test-TP2\exercice3\Screenshots\Categories.png)
+![Capture d'écran](exercice3/Screenshots/Categories.png)
 
 ### Confirmation apres paiement
-![Capture d'écran](test-TP2/exercice3/Screenshots/Confirmatio_Succes.png)
+![Capture d'écran](exercice3/Screenshots/Confirmatio_Succes.png)
 
 ## 2. Tests échoués et corrections
 
@@ -54,20 +54,20 @@ Scripts cas avancés et calculs simple dans le folder exercice 2.
 
 #### Erreur
 Ce test a échoué en raison d'un délai d'attente expiré lors de la recherche du bouton de lecture vidéo sur la page "À propos".
-![Capture d'écran](test-TP2/exercice3/Screenshots/Pages_error_Video.png)
+![Capture d'écran](exercice3/Screenshots/Pages_error_Video.png)
 #### Correction
 La correction implique d'augmenter le délai d'attente ou d'ajuster le sélecteur CSS pour localiser correctement le bouton de lecture vidéo.
-![Capture d'écran](test-TP2/exercice3/Screenshots/Pages_succes.png)
+![Capture d'écran](exercice3/Screenshots/Pages_succes.png)
 
 ### Supprimer du panier
 
 
 #### Erreur
 Ce test a échoué car le nombre d'articles dans le panier a changé, ce qui a provoqué une défaillance des sélecteurs utilisés dans le test.
-![Capture d'écran](test-TP2/exercice3/Screenshots/Supprime_panier_echoue.png)
+![Capture d'écran](exercice3/Screenshots/Supprime_panier_echoue.png)
 #### Correction
 La correction implique de modifier les sélecteurs pour qu'ils puissent s'adapter dynamiquement au nombre d'articles dans le panier.
-![Capture d'écran](test-TP2/exercice3/Screenshots/Panier_succes.png)
+![Capture d'écran](exercice3/Screenshots/Panier_succes.png)
 ## 3. Améliorations
 
 
